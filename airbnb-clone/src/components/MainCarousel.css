@@ -1,0 +1,58 @@
+
+
+.img_carousel{
+    width: 100%;
+    height: 300px;
+    object-fit:fill;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+ 
+ .slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+ 
+}
+
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:101;
+  color: white;
+}
+
+.slides .slick-prev {
+  left: 5%;
+  
+}
+
+.slides .slick-next {
+  right: 5%;
+  
+} 
+
+
+
+
+.carousel_list{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.carousel_list h1{
+    margin-bottom: 30px;
+} 
+
+
+  

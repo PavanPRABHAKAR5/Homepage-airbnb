@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu .static_tab{
+    margin: 10px;
+    padding: 10px;
+    width: 25vw;
+    justify-content: space-between;
+    border-right: 1px solid lightgray;
+}
+
+.menu .static_tab .extended{
+    margin-right: 10px;
+    border: 1px solid lightgray;
+}
+.menu .responsive_tab{
+    margin: 10px;
+    padding: 10px;
+    width: 70vw;
+}
+
+.menu .responsive_tab .extended{
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    width: 100px;
+}
+.extended{
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: white;
+    width: 90px;
+    height: 40px;
+}
